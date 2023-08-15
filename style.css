@@ -139,6 +139,13 @@
   width: 35vw;
   font-weight: 400;
 }
+.hero_button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
 .hero_btn {
   display: inline-block;
   padding: 1rem;
@@ -1026,6 +1033,7 @@
   .bar {
     font-size: 7vw;
   }
+
   .change .navbar-nav {
     left: 35%;
     width: 350px;
@@ -1041,13 +1049,19 @@
   .change .navbar-nav .nav-item .nav-link {
     font-size: 5vw;
   }
+  .hero_button {
+    width: 18rem;
+  }
   .hero_btn:nth-child(2),
   .hero_btn:nth-child(1) {
-    font-size: 2.5vw;
-    width: fit-content;
+    font-size: 4vw;
+    width: auto;
   }
-  .section_2 .hero_btn:nth-child(1) {
-    width: fit-content;
+  .section_2 .hero_btn:nth-child(1),
+  .section_2 .hero_btn:nth-child(2) {
+    width: auto;
+    font-size: 4vw;
+    margin-left: 1rem;
   }
 
   .card {
@@ -1135,9 +1149,15 @@
   }
 }
 
-@media screen and (max-width: 348px) {
+@media screen and (max-width: 360px) {
   .navbar {
     border: 1px solid red;
+  }
+  .section_2 .hero_btn:nth-child(1),
+  .section_2 .hero_btn:nth-child(2) {
+    width: auto;
+    font-size: 4vw;
+    margin: 0 auto;
   }
   .footer_container .social_icons .input_container input {
     width: 45vw;
