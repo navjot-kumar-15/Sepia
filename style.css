@@ -1150,9 +1150,6 @@
 }
 
 @media screen and (max-width: 360px) {
-  .navbar {
-    border: 1px solid red;
-  }
   .section_2 .hero_btn:nth-child(1),
   .section_2 .hero_btn:nth-child(2) {
     width: auto;
