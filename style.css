@@ -817,11 +817,10 @@
 @media screen and (max-width: 764px) {
   .hero_btn:nth-child(2) {
     width: 20vw;
-    font-size: 1.6vw;
+    font-size: 2vw;
   }
   .hero_btn:nth-child(1) {
-    /* width: 20vw; */
-    font-size: 1.6vw;
+    font-size: 2vw;
   }
   .change .navbar-nav {
     transform: translate(-16rem, 10rem);
@@ -842,6 +841,13 @@
   }
   .hero_btn {
     padding: 0.6rem;
+  }
+  .hero_btn:nth-child(2) {
+    width: 20vw;
+    font-size: 2.3vw;
+  }
+  .hero_btn:nth-child(1) {
+    font-size: 2.3vw;
   }
   .change .nav-item .sub_nav_item li a {
     font-size: 16px;
@@ -874,6 +880,9 @@
   .section_6_card_content h4 {
     font-size: 2.5vw;
   }
+  .section_7_btn a {
+    font-size: 2.3vw;
+  }
   .footer_container {
     flex-direction: column;
   }
@@ -902,6 +911,14 @@
     font-size: 2.5vw;
     width: auto;
   }
+  .hero_btn:nth-child(2) {
+    width: auto;
+    font-size: 2.8vw;
+  }
+  .hero_btn:nth-child(1) {
+    font-size: 2.8vw;
+  }
+
   .carousel-caption p {
     font-size: 3vw;
   }
