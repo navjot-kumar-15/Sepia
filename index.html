@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sepia</title>
+
+    <!-- Aos link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <!-- <i class="ri-menu-3-line bar"></i> -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://demo.themetorium.net/html/sepia/assets/img/logo-dark.png"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="ri-menu-3-fill bar"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Home <i class="ri-arrow-drop-down-line"></i
+              ></a>
+              <ul class="sub_nav_item">
+                <li><a href="">Home Landing</a></li>
+                <li><a href="">Slide Show</a></li>
+                <li><a href="">SlideShow + Thumb</a></li>
+                <li><a href="">Full Screen Slideshow</a></li>
+                <li><a href="">Category Carasoul</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Features <i class="ri-arrow-drop-down-line"></i
+              ></a> 
+              <ul class="sub_nav_item">
+                <li>
+                  <a href="">About Me </a>
+                </li>
+                <li><a href="">About Our Team</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Portfolio <i class="ri-arrow-drop-down-line"></i
+              ></a>
+              <ul class="sub_nav_item">
+                <li><a href="">Album</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Categories</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+
+            <a href="" class="btn btn-success mx-5 contact_btn">Contact Now</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Of Navbar  -->
+
+    <!-- Carousel  -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel hero_carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1484452330304-377cdeb05340?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>Powerful</h1>
+            <h3>Photography Portfolio Theme</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              sint est ex impedit tempore ad nulla consectetur totam obcaecati
+              alias?
+            </p>
+            <div class="hero_button">
+              <a href="" class="hero_btn">Buy It</a>
+              <a href="" class="hero_btn">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1509650382971-17f6cae19506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>Sepia</h1>
+            <h3>Photography Portfolio Theme</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              sint est ex impedit tempore ad nulla consectetur totam obcaecati
+              alias?
+            </p>
+            <div class="hero_button">
+              <a href="" class="hero_btn">Buy It</a>
+              <a href="" class="hero_btn">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1655931546504-bd87b13d65c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>Perfect</h1>
+            <h3>Photography Portfolio Theme</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              sint est ex impedit tempore ad nulla consectetur totam obcaecati
+              alias?
+            </p>
+            <div class="hero_button">
+              <a href="" class="hero_btn">Buy It</a>
+              <a href="" class="hero_btn">Discover More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End Of Carousel  -->
+
+    <!-- Section 2 -->
+    <div class="section_2">
+      <div class="section_2_left" data-aos="fade-right">
+        <img
+          src="https://images.unsplash.com/photo-1610716632424-4d45990bcd48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80"
+          alt=""
+        />
+      </div>
+      <div class="section_2_right" data-aos="fade-left">
+        <h2>About</h2>
+        <h5>Who I am and what I do</h5>
+        <p>
+          Hi, my name is<strong> Martin Vegas</strong>. I am an artist and
+          photographer. Nemo enim ipsam voluptatem quia voluptas aspernatur aut
+          odit aut fugit. Vivamus at nibh tincidunt, bibendum ligula id. Nemo
+          enim ipsam voluptatem quiatotam rem aperiam, eaque ipsa quae ab illo
+          inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo. Nemo enim ipsam voluptatem.
+        </p>
+        <div class="hero_button">
+          <a href="" class="hero_btn">Read More</a>
+          <a href="" class="hero_btn">Hire me!</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Of Section 2 -->
+
+    <!-- Section 3 -->
+    <div class="gallery_container" data-aos="zoom-in-up">
+      <div class="section_3_heading">
+        <h2>Latest Work</h2>
+        <span>My latest photo projects </span>
+      </div>
+
+      <div class="row gallery_row_container">
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1551710029-607e06bd45ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1551288449-085e5252e44e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1563330232-57114bb0823c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="row gallery_row_container">
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1586732711591-12c04655338f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1637249786345-a064129dd0d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1557860854-c7ed6b193822?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col col-3 col-sm-12 col-md-6 col-xl-3">
+          <div class="overlay">
+            <h3>Sit Back And Relax</h3>
+            <p>Portraits</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1551288449-085e5252e44e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End Of Section 3 -->
+
+    <!-- Section 4 -->
+    <section class="section_4">
+      <div class="section_4_heading">
+        <div class="row">
+          <div class="col col-4" data-aos="fade-right">
+            <h2>Services & Pricing</h2>
+            <span>Please choose your package</span>
+          </div>
+          <div class="col col-6" data-aos="fade-left">
+            <p>
+              Nunc euismod ipsum vel metus rhoncus, a accumsan sapien mollis.
+              Donec malesuada lacus rhoncus ipsum dignissim, sed fringilla orci
+              faucibus. Proin non odio dui. Donec ut tristique dolor, at
+              interdum sem. Quisque finibus viverra lectus vitae pulvinar.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card_container">
+        <div class="card">
+          <div class="img">
+            <div class="img_content">
+              <h3>Studio</h3>
+              <p>Studio Photo Session</p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h1 class="price"><sup>$</sup>99</h1>
+            <span>Ascimo Ellan Tareck</span>
+            <span>Fitrim Namzeck</span>
+            <span>Fartimo antera Maunos</span>
+            <a href="">Purchase Now</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <div class="img_content">
+              <h3>Outdoor</h3>
+              <p>Studio Photo Session</p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1601128422127-9fd6f6476c41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h1 class="price"><sup>$</sup>129</h1>
+            <span>Ascimo Ellan Tareck</span>
+            <span>Fitrim Namzeck</span>
+            <span>Fartimo antera Maunos</span>
+            <a href="" class="green">Purchase Now</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <div class="img_content">
+              <h3>Music</h3>
+              <p>Studio Photo Session</p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1600394977466-97e58efc38b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h1 class="price"><sup>$</sup>219</h1>
+            <span>Ascimo Ellan Tareck</span>
+            <span>Fitrim Namzeck</span>
+            <span>Fartimo antera Maunos</span>
+            <a href="">Purchase Now</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <div class="img_content">
+              <h3>Setup</h3>
+              <p>Studio Photo Session</p>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1601128426295-2a98766f6fdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h1 class="price"><sup>$</sup>149</h1>
+            <span>Ascimo Ellan Tareck</span>
+            <span>Fitrim Namzeck</span>
+            <span>Fartimo antera Maunos</span>
+            <a href="">Purchase Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_content">
+        <p>
+          Duis mattis quam quis quam cursus, a rutrum ante luctus. Phasellus
+          porta ornare enim ac euismod. Nulla fringilla lectus ac tincidunt
+          viverra a accumsan sapien mollis.
+        </p>
+      </div>
+    </section>
+    <!-- End Of Section 4 -->
+    <!-- Section 5 -->
+    <div class="section_5 slider">
+      <div class="customer_review">
+        <div class="img">
+          <img
+            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div class="reviews">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae
+            accusantium exercitationem nesciunt provident nam, tenetur, ipsam
+            quam aliquam placeat debitis, assumenda aperiam blanditiis! Facere
+            quis consequuntur perspiciatis dolor dolore.
+          </p>
+          <span>-<i>Unknown</i></span>
+        </div>
+      </div>
+      <div class="customer_review">
+        <div class="img">
+          <img
+            src="https://images.unsplash.com/photo-1491358530325-771b5ad9845b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80"
+            alt=""
+          />
+        </div>
+        <div class="reviews">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae
+            accusantium exercitationem nesciunt provident nam, tenetur, ipsam
+            quam aliquam placeat debitis, assumenda aperiam blanditiis! Facere
+            quis consequuntur perspiciatis dolor dolore.
+          </p>
+          <span>-<i>Unknown</i></span>
+        </div>
+      </div>
+
+      <div class="customer_review">
+        <div class="img">
+          <img
+            src="https://images.unsplash.com/photo-1540128633858-89fe2c980033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt=""
+          />
+        </div>
+        <div class="reviews">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae
+            accusantium exercitationem nesciunt provident nam, tenetur, ipsam
+            quam aliquam placeat debitis, assumenda aperiam blanditiis! Facere
+            quis consequuntur perspiciatis dolor dolore.
+          </p>
+          <span>-<i>Unknown</i></span>
+        </div>
+      </div>
+    </div>
+    <!-- End Of Section 5 -->
+    <div class="section_6" data-aos="zoom-in">
+      <div class="section_3_heading mt-5">
+        <h2>Latest From Blog</h2>
+        <span>News, Reviews, Tips & Tricks </span>
+      </div>
+
+      <div class="section_6_card_container sm_6_slider">
+        <div class="section_6_card">
+          <div class="img">
+            <img
+              src="https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1183&q=80"
+              alt=""
+            />
+          </div>
+          <div class="section_6_card_content">
+            <span>Travel</span>
+            <h4>5 reasons you should fall in love with photography</h4>
+            <h6>may 26,2023 -by john doe</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum animi molestias debitis cupiditate obcaecati alias,
+              expedita suscipit atque beatae facilis...
+            </p>
+          </div>
+        </div>
+        <div class="section_6_card">
+          <div class="img">
+            <img
+              src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt=""
+            />
+          </div>
+          <div class="section_6_card_content">
+            <span>Photography</span>
+            <h4>5 reasons you should fall in love with photography</h4>
+            <h6>may 26,2023 -by john doe</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum animi molestias debitis cupiditate obcaecati alias,
+              expedita suscipit atque beatae facilis...
+            </p>
+          </div>
+        </div>
+        <div class="section_6_card">
+          <div class="img">
+            <img
+              src="https://images.unsplash.com/photo-1554080353-321e452ccf19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt=""
+            />
+          </div>
+          <div class="section_6_card_content">
+            <span>Tourist</span>
+            <h4>5 reasons you should fall in love with photography</h4>
+            <h6>may 26,2023 -by john doe</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum animi molestias debitis cupiditate obcaecati alias,
+              expedita suscipit atque beatae facilis...
+            </p>
+          </div>
+        </div>
+        <div class="section_6_card">
+          <div class="img">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1689885430772-01b20657d2d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt=""
+            />
+          </div>
+          <div class="section_6_card_content">
+            <span>Dance</span>
+            <h4>5 reasons you should fall in love with photography</h4>
+            <h6>may 26,2023 -by john doe</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum animi molestias debitis cupiditate obcaecati alias,
+              expedita suscipit atque beatae facilis...
+            </p>
+          </div>
+        </div>
+        <div class="section_6_card">
+          <div class="img">
+            <img
+              src="https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1183&q=80"
+              alt=""
+            />
+          </div>
+          <div class="section_6_card_content">
+            <span>Travel</span>
+            <h4>5 reasons you should fall in love with photography</h4>
+            <h6>may 26,2023 -by john doe</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum animi molestias debitis cupiditate obcaecati alias,
+              expedita suscipit atque beatae facilis...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section 7 -->
+    <section class="section_7">
+      <div class="section_3_heading mt-5" data-aos="fade-right">
+        <h2>What Next?</h2>
+        <span>Interested in working with me? </span>
+      </div>
+      <p data-aos="fade-left">
+        Fusce et velit sed augue rhoncus tempor. Sed ac lacinia augue, nec
+        lacinia felis. Sed sit amet diam leo. Praesent vel malesuada arcu. Donec
+        mattis, arcu vel vehicula feugiat, sem turpis dignissim ex, eu
+        sollicitudin neque.
+      </p>
+      <div class="section_7_btn" data-aos="fade-up">
+        <a href="">Read More</a>
+        <a href="">Lets Work Together</a>
+      </div>
+    </section>
+    <!-- End Of Section 7 -->
+
+    <!-- Footer  -->
+    <footer>
+      <div class="footer_container">
+        <div class="logo" data-aos="fade-right">
+          <img
+            src="https://demo.themetorium.net/html/sepia/assets/img/logo-light.png"
+            alt=""
+          />
+        </div>
+        <div class="footer_content" data-aos="fade-left">
+          <h4>- Creative Photo Studio</h4>
+          <p>
+            Sed non auctor magna. Nunc eu ultrices orci. Donec commodo ligula in
+            massa ultricies volutpat. Fusce vel cursus lectus. Cras commodo odio
+            mi, eu cursus nibh iaculis ut.
+          </p>
+        </div>
+        <div class="social_icons">
+          <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-linkedin-fill"></i>
+          </div>
+          <div class="input_container">
+            <input type="text" placeholder="Enter your email address" />
+            <i class="ri-telegram-fill"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom_details">
+        <div class="left">
+          <span>© By Navjot kumar</span>
+        </div>
+        <div class="right">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+          <a href="">Blog</a>
+          <a href="">FAQ</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Of Footer  -->
+
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slick  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        delay: 50,
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
